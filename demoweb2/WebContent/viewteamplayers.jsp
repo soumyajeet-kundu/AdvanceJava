@@ -11,7 +11,7 @@
 </head>
 <body>
 <%
-PlayerDao pd=new PlayerDao();
+PlayerDao pd=new PlayerDao();                                                                                                                                                                                     
 List<Player> li=pd.getAllPlayers();
 
 List<Player> nli=new ArrayList<Player>();
